@@ -1,0 +1,43 @@
+input {
+
+      width: 80%;
+      padding: 10px;
+      margin: 5px 20px;
+      border-radius: 10px;
+
+}
+
+.submit {
+
+	background-color: slateblue;
+	color: snow;
+	font-size: 24px;
+	width: 85%;
+}
+
+input:focus{
+
+	background-color: salmon;
+	color:grey;
+	outline: none;
+}
+
+h2{
+
+   color: slateblue;
+   margin: 15px;
+   font-size: 32px;
+
+}
+
+.form-container, .instruction{
+
+	width: 50%;
+	float:left;
+}
+
+@media screen and (max-width: 500px){
+	.form-container, .instruction{
+		width: 100%;
+	}
+}
